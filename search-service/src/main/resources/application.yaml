@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+hm:
+  swagger:
+    title: 搜索服务接口文档
+    package: com.hmall.search.controller
+

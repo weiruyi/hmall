@@ -1,0 +1,1254 @@
+13:14:18:951  INFO 18852 --- [main] com.hmall.item.es.ElasticDocunmentTest   : The following 1 profile is active: "local"
+13:14:20:691  INFO 18852 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8a9570f0-e89d-344b-9b21-a2784e238b32
+13:14:20:875  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:20:878  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:20:900  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:20:997  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:21:017  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:21:020  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:21:022  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$822/0x0000000800760c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:21:024  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:21:029  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:21:032  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:21:034  INFO 18852 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+13:14:21:140  INFO 18852 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+13:14:21:162  INFO 18852 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+13:14:21:323  INFO 18852 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+13:14:21:457  INFO 18852 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+13:14:21:627  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of dc909fb3-ca48-452f-b8c8-daa33d09c14d
+13:14:21:627  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] RpcClient init label, labels = {module=naming, source=sdk}
+13:14:21:629  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+13:14:21:629  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+13:14:21:629  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+13:14:21:630  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Try to connect to server on start up, server: {serverIp = '192.168.175.129', server main port = 8848}
+13:14:21:754  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Success to connect to server [192.168.175.129:8848] on start up, connectionId = 1719897261588_192.168.175.1_63023
+13:14:21:754  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:14:21:754  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$734/0x00000008004b3c40
+13:14:21:754  INFO 18852 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Notify connected event to listeners.
+13:14:21:806  INFO 18852 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.175.129:8099
+13:14:22:102  INFO 18852 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.175.129:8099,msg:< RegisterTMRequest{applicationId='item-service', transactionServiceGroup='hmall'} >
+13:14:22:379  INFO 18852 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+13:14:22:381  INFO 18852 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [dc909fb3-ca48-452f-b8c8-daa33d09c14d] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+13:14:22:628  WARN 18852 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+13:14:22:773  INFO 18852 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x5324448d, L:/192.168.175.1:63025 - R:/192.168.175.129:8099]
+13:14:22:778  INFO 18852 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 208 ms, version:1.5.2,role:TMROLE,channel:[id: 0x5324448d, L:/192.168.175.1:63025 - R:/192.168.175.129:8099]
+13:14:22:779  INFO 18852 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[item-service] txServiceGroup[hmall]
+13:14:22:807  INFO 18852 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+13:14:22:808  INFO 18852 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+13:14:22:815  INFO 18852 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+13:14:22:815  INFO 18852 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[item-service] txServiceGroup[hmall]
+13:14:22:815  INFO 18852 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+13:14:22:818  INFO 18852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:23:390  INFO 18852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+13:14:24:000  INFO 18852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+13:14:24:082  INFO 18852 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.175.129:8099
+13:14:24:082  INFO 18852 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.175.129:3306/hm-item
+13:14:24:083  INFO 18852 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.175.129:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.175.129:3306/hm-item', applicationId='item-service', transactionServiceGroup='hmall'} >
+13:14:24:096  INFO 18852 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x114e044f, L:/192.168.175.1:63029 - R:/192.168.175.129:8099]
+13:14:24:096  INFO 18852 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 10 ms, version:1.5.2,role:RMROLE,channel:[id: 0x114e044f, L:/192.168.175.1:63029 - R:/192.168.175.129:8099]
+13:14:29:791  INFO 18852 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+13:14:29:907  INFO 18852 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+13:14:31:866  INFO 18852 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+13:14:31:978  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 6cd68169-b15d-4c40-89f3-f15ab2a6a60e
+13:14:31:981  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] RpcClient init label, labels = {module=naming, source=sdk}
+13:14:31:981  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+13:14:31:981  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+13:14:31:981  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+13:14:31:981  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Try to connect to server on start up, server: {serverIp = '192.168.175.129', server main port = 8848}
+13:14:32:109  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Success to connect to server [192.168.175.129:8848] on start up, connectionId = 1719897271937_192.168.175.1_63069
+13:14:32:109  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:14:32:109  INFO 18852 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Notify connected event to listeners.
+13:14:32:109  INFO 18852 --- [main] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$734/0x00000008004b3c40
+13:14:32:119  INFO 18852 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+13:14:32:123  INFO 18852 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+13:14:32:163  INFO 18852 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+13:14:32:345  INFO 18852 --- [main] com.hmall.item.es.ElasticDocunmentTest   : Started ElasticDocunmentTest in 21.215 seconds (JVM running for 22.75)
+13:14:32:357  INFO 18852 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service.yaml, group=DEFAULT_GROUP
+13:14:32:357  INFO 18852 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service-local.yaml, group=DEFAULT_GROUP
+13:14:32:358  INFO 18852 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service, group=DEFAULT_GROUP
+13:14:32:675  INFO 18852 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+13:14:32:676  INFO 18852 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [6cd68169-b15d-4c40-89f3-f15ab2a6a60e] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+13:14:33:043 DEBUG 18852 --- [main] c.h.item.mapper.ItemMapper.selectById    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id=?
+13:14:33:080 DEBUG 18852 --- [main] c.h.item.mapper.ItemMapper.selectById    : ==> Parameters: 100002644680(Long)
+13:14:33:129 DEBUG 18852 --- [main] c.h.item.mapper.ItemMapper.selectById    : <==      Total: 1
+13:14:33:399  WARN 18852 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+13:14:33:399  WARN 18852 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+13:14:33:399  WARN 18852 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+13:14:33:400  WARN 18852 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+13:14:34:060  INFO 18852 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+13:14:34:060  INFO 18852 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1b72194b[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+13:14:34:060  INFO 18852 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1719897271937_192.168.175.1_63069
+13:14:34:063  INFO 18852 --- [nacos-grpc-client-executor-12] c.a.n.c.remote.client.grpc.GrpcClient    : [1719897271937_192.168.175.1_63069]Ignore complete event,isRunning:false,isAbandon=false
+13:14:34:073  INFO 18852 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5c8efebc[Running, pool size = 13, active threads = 0, queued tasks = 0, completed tasks = 13]
+13:14:34:078  INFO 18852 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+13:14:34:101  INFO 18852 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+13:14:34:106  INFO 18852 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x5324448d, L:/192.168.175.1:63025 ! R:/192.168.175.129:8099]
+13:14:34:106  INFO 18852 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x5324448d, L:/192.168.175.1:63025 ! R:/192.168.175.129:8099]
+13:14:34:106  INFO 18852 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x5324448d, L:/192.168.175.1:63025 ! R:/192.168.175.129:8099]
+13:14:34:107  INFO 18852 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x5324448d, L:/192.168.175.1:63025 ! R:/192.168.175.129:8099]
+13:14:34:107  INFO 18852 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x5324448d, L:/192.168.175.1:63025 ! R:/192.168.175.129:8099]) will closed
+13:14:34:107  INFO 18852 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x5324448d, L:/192.168.175.1:63025 ! R:/192.168.175.129:8099]) will closed
+13:14:34:108  INFO 18852 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x114e044f, L:/192.168.175.1:63029 ! R:/192.168.175.129:8099]
+13:14:34:108  INFO 18852 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x114e044f, L:/192.168.175.1:63029 ! R:/192.168.175.129:8099]
+13:14:34:108  INFO 18852 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x114e044f, L:/192.168.175.1:63029 ! R:/192.168.175.129:8099]
+13:14:34:109  INFO 18852 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x114e044f, L:/192.168.175.1:63029 ! R:/192.168.175.129:8099]
+13:14:34:109  INFO 18852 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x114e044f, L:/192.168.175.1:63029 ! R:/192.168.175.129:8099]) will closed
+13:14:34:109  INFO 18852 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x114e044f, L:/192.168.175.1:63029 ! R:/192.168.175.129:8099]) will closed
+14:14:38:492  INFO 9196 --- [main] com.hmall.item.es.ElasticDocunmentTest   : The following 1 profile is active: "local"
+14:14:40:458  INFO 9196 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8a9570f0-e89d-344b-9b21-a2784e238b32
+14:14:40:684  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:687  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:702  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:790  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:809  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:810  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:812  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$822/0x0000000800760c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:814  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:818  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:819  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:40:821  INFO 9196 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+14:14:40:902  INFO 9196 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+14:14:40:913  INFO 9196 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+14:14:41:062  INFO 9196 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+14:14:41:229  INFO 9196 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+14:14:41:401  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 345adb54-fe26-414c-9297-e9604d9c363e
+14:14:41:401  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] RpcClient init label, labels = {module=naming, source=sdk}
+14:14:41:403  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:14:41:403  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:14:41:404  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:14:41:404  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Try to connect to server on start up, server: {serverIp = '192.168.175.129', server main port = 8848}
+14:14:41:529  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Success to connect to server [192.168.175.129:8848] on start up, connectionId = 1719900881023_192.168.175.1_52621
+14:14:41:529  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:14:41:529  INFO 9196 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Notify connected event to listeners.
+14:14:41:529  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$734/0x00000008004b3c40
+14:14:41:578  INFO 9196 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.175.129:8099
+14:14:41:958  INFO 9196 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.175.129:8099,msg:< RegisterTMRequest{applicationId='item-service', transactionServiceGroup='hmall'} >
+14:14:42:173  INFO 9196 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+14:14:42:176  INFO 9196 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [345adb54-fe26-414c-9297-e9604d9c363e] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+14:14:42:558  WARN 9196 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+14:14:42:752  INFO 9196 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xd6029793, L:/192.168.175.1:52622 - R:/192.168.175.129:8099]
+14:14:42:760  INFO 9196 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 279 ms, version:1.5.2,role:TMROLE,channel:[id: 0xd6029793, L:/192.168.175.1:52622 - R:/192.168.175.129:8099]
+14:14:42:760  INFO 9196 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[item-service] txServiceGroup[hmall]
+14:14:42:793  INFO 9196 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+14:14:42:793  INFO 9196 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+14:14:42:806  INFO 9196 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+14:14:42:806  INFO 9196 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[item-service] txServiceGroup[hmall]
+14:14:42:806  INFO 9196 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+14:14:42:808  INFO 9196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:14:43:342  INFO 9196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+14:14:43:943  INFO 9196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+14:14:44:033  INFO 9196 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.175.129:8099
+14:14:44:033  INFO 9196 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.175.129:3306/hm-item
+14:14:44:034  INFO 9196 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.175.129:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.175.129:3306/hm-item', applicationId='item-service', transactionServiceGroup='hmall'} >
+14:14:44:046  INFO 9196 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x503e37cf, L:/192.168.175.1:52627 - R:/192.168.175.129:8099]
+14:14:44:046  INFO 9196 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 10 ms, version:1.5.2,role:RMROLE,channel:[id: 0x503e37cf, L:/192.168.175.1:52627 - R:/192.168.175.129:8099]
+14:14:48:635  INFO 9196 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:14:48:757  INFO 9196 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:14:50:916  INFO 9196 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:14:50:996  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 9323c3e2-7c94-4e4c-aa21-fd264ee84c2c
+14:14:50:997  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] RpcClient init label, labels = {module=naming, source=sdk}
+14:14:50:997  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:14:50:997  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:14:50:997  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:14:50:998  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Try to connect to server on start up, server: {serverIp = '192.168.175.129', server main port = 8848}
+14:14:51:130  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Success to connect to server [192.168.175.129:8848] on start up, connectionId = 1719900890619_192.168.175.1_52665
+14:14:51:130  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:14:51:130  INFO 9196 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Notify connected event to listeners.
+14:14:51:130  INFO 9196 --- [main] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$734/0x00000008004b3c40
+14:14:51:141  INFO 9196 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:14:51:146  INFO 9196 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:14:51:200  INFO 9196 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:14:51:366  INFO 9196 --- [main] com.hmall.item.es.ElasticDocunmentTest   : Started ElasticDocunmentTest in 22.362 seconds (JVM running for 25.892)
+14:14:51:383  INFO 9196 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service.yaml, group=DEFAULT_GROUP
+14:14:51:384  INFO 9196 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service-local.yaml, group=DEFAULT_GROUP
+14:14:51:385  INFO 9196 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service, group=DEFAULT_GROUP
+14:14:51:685  INFO 9196 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+14:14:51:687  INFO 9196 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [9323c3e2-7c94-4e4c-aa21-fd264ee84c2c] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+14:14:52:260 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:52:300 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:52:500 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:52:509 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?
+14:14:52:509 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 500(Long)
+14:14:52:585 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:53:306 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:53:306 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:53:322 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:53:323 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:53:323 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 500(Long), 500(Long)
+14:14:53:446 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:53:582 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:53:582 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:53:599 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:53:601 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:53:601 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 1000(Long), 500(Long)
+14:14:53:649 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:53:755 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:53:755 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:53:766 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:53:770 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:53:771 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 1500(Long), 500(Long)
+14:14:53:785 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:53:900 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:53:900 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:53:913 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:53:914 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:53:914 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 2000(Long), 500(Long)
+14:14:53:926 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:018 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:019 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:033 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:035 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:035 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 2500(Long), 500(Long)
+14:14:54:047 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:138 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:138 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:150 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:151 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:152 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 3000(Long), 500(Long)
+14:14:54:168 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:259 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:259 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:282 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:283 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:285 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 3500(Long), 500(Long)
+14:14:54:301 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:386 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:387 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:401 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:402 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:403 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 4000(Long), 500(Long)
+14:14:54:424 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:514 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:515 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:527 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:528 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:528 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 4500(Long), 500(Long)
+14:14:54:540 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:614 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:614 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:625 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:626 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:626 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 5000(Long), 500(Long)
+14:14:54:640 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:716 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:716 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:728 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:729 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:730 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 5500(Long), 500(Long)
+14:14:54:742 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:813 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:813 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:825 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:826 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:826 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 6000(Long), 500(Long)
+14:14:54:839 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:54:909 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:54:910 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:54:927 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:54:929 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:54:929 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 6500(Long), 500(Long)
+14:14:54:965 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:029 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:030 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:047 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:048 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:048 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 7000(Long), 500(Long)
+14:14:55:062 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:159 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:159 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:171 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:172 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:172 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 7500(Long), 500(Long)
+14:14:55:191 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:271 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:272 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:283 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:284 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:284 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 8000(Long), 500(Long)
+14:14:55:299 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:379 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:380 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:392 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:392 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:393 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 8500(Long), 500(Long)
+14:14:55:409 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:477 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:477 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:494 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:495 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:495 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 9000(Long), 500(Long)
+14:14:55:511 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:582 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:582 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:594 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:594 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:596 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 9500(Long), 500(Long)
+14:14:55:619 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:686 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:686 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:698 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:699 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:699 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 10000(Long), 500(Long)
+14:14:55:722 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:786 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:787 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:801 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:802 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:803 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 10500(Long), 500(Long)
+14:14:55:819 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:876 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:876 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:888 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:888 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:888 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 11000(Long), 500(Long)
+14:14:55:906 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:55:973 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:55:973 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:55:988 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:55:988 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:55:988 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 11500(Long), 500(Long)
+14:14:56:007 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:064 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:064 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:076 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:077 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:077 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 12000(Long), 500(Long)
+14:14:56:105 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:192 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:193 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:209 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:210 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:210 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 12500(Long), 500(Long)
+14:14:56:230 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:287 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:288 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:299 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:300 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:300 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 13000(Long), 500(Long)
+14:14:56:320 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:371 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:371 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:383 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:384 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:384 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 13500(Long), 500(Long)
+14:14:56:410 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:462 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:463 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:475 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:475 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:475 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 14000(Long), 500(Long)
+14:14:56:495 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:550 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:551 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:564 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:564 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:565 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 14500(Long), 500(Long)
+14:14:56:587 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:642 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:642 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:655 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:655 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:655 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 15000(Long), 500(Long)
+14:14:56:681 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:733 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:733 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:745 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:745 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:745 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 15500(Long), 500(Long)
+14:14:56:772 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:821 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:821 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:833 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:834 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:834 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 16000(Long), 500(Long)
+14:14:56:859 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:56:923 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:56:923 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:56:935 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:56:936 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:56:936 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 16500(Long), 500(Long)
+14:14:56:960 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:010 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:010 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:022 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:023 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:023 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 17000(Long), 500(Long)
+14:14:57:048 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:142 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:142 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:163 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:163 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:163 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 17500(Long), 500(Long)
+14:14:57:211 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:268 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:268 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:279 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:280 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:280 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 18000(Long), 500(Long)
+14:14:57:305 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:354 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:354 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:365 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:366 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:366 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 18500(Long), 500(Long)
+14:14:57:392 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:437 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:437 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:449 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:450 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:450 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 19000(Long), 500(Long)
+14:14:57:476 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:533 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:533 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:545 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:545 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:545 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 19500(Long), 500(Long)
+14:14:57:571 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:623 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:623 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:634 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:635 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:635 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 20000(Long), 500(Long)
+14:14:57:665 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:709 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:709 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:721 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:722 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:722 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 20500(Long), 500(Long)
+14:14:57:748 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:790 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:790 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:802 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:802 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:802 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 21000(Long), 500(Long)
+14:14:57:834 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:878 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:878 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:890 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:890 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:890 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 21500(Long), 500(Long)
+14:14:57:918 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:57:961 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:57:961 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:57:972 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:57:972 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:57:972 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 22000(Long), 500(Long)
+14:14:58:001 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:047 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:047 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:058 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:059 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:059 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 22500(Long), 500(Long)
+14:14:58:092 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:135 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:135 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:147 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:147 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:148 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 23000(Long), 500(Long)
+14:14:58:242 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:287 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:287 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:299 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:300 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:300 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 23500(Long), 500(Long)
+14:14:58:330 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:375 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:376 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:387 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:388 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:388 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 24000(Long), 500(Long)
+14:14:58:418 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:459 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:459 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:470 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:470 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:470 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 24500(Long), 500(Long)
+14:14:58:503 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:549 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:549 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:560 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:561 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:561 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 25000(Long), 500(Long)
+14:14:58:593 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:632 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:632 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:646 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:646 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:646 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 25500(Long), 500(Long)
+14:14:58:701 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:746 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:746 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:757 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:757 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:758 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 26000(Long), 500(Long)
+14:14:58:790 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:832 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:832 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:843 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:843 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:843 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 26500(Long), 500(Long)
+14:14:58:876 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:58:925 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:58:925 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:58:937 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:58:938 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:58:938 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 27000(Long), 500(Long)
+14:14:58:971 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:013 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:013 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:025 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:025 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:025 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 27500(Long), 500(Long)
+14:14:59:059 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:133 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:133 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:144 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:145 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:145 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 28000(Long), 500(Long)
+14:14:59:183 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:227 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:227 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:238 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:239 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:239 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 28500(Long), 500(Long)
+14:14:59:318 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:363 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:364 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:374 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:376 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:376 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 29000(Long), 500(Long)
+14:14:59:414 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:455 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:455 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:474 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:475 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:475 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 29500(Long), 500(Long)
+14:14:59:510 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:552 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:552 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:564 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:565 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:565 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 30000(Long), 500(Long)
+14:14:59:605 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:651 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:651 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:667 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:667 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:668 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 30500(Long), 500(Long)
+14:14:59:704 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:747 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:747 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:759 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:759 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:759 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 31000(Long), 500(Long)
+14:14:59:801 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:843 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:843 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:855 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:856 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:856 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 31500(Long), 500(Long)
+14:14:59:895 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:14:59:937 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:14:59:937 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:14:59:948 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:14:59:950 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:14:59:950 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 32000(Long), 500(Long)
+14:14:59:988 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:033 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:033 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:044 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:044 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:044 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 32500(Long), 500(Long)
+14:15:00:084 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:134 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:134 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:146 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:147 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:147 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 33000(Long), 500(Long)
+14:15:00:188 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:238 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:238 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:250 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:250 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:250 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 33500(Long), 500(Long)
+14:15:00:314 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:361 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:361 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:372 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:373 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:373 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 34000(Long), 500(Long)
+14:15:00:420 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:459 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:459 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:471 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:471 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:471 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 34500(Long), 500(Long)
+14:15:00:513 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:553 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:553 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:566 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:567 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:567 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 35000(Long), 500(Long)
+14:15:00:609 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:649 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:649 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:661 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:662 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:662 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 35500(Long), 500(Long)
+14:15:00:704 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:747 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:747 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:758 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:759 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:759 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 36000(Long), 500(Long)
+14:15:00:804 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:846 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:846 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:858 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:858 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:858 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 36500(Long), 500(Long)
+14:15:00:908 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:00:955 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:00:956 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:00:966 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:00:967 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:00:967 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 37000(Long), 500(Long)
+14:15:01:012 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:054 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:054 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:065 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:065 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:067 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 37500(Long), 500(Long)
+14:15:01:143 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:186 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:186 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:199 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:199 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:199 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 38000(Long), 500(Long)
+14:15:01:247 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:291 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:292 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:304 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:304 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:305 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 38500(Long), 500(Long)
+14:15:01:350 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:389 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:389 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:401 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:402 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:402 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 39000(Long), 500(Long)
+14:15:01:448 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:489 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:489 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:501 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:502 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:502 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 39500(Long), 500(Long)
+14:15:01:552 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:598 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:599 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:611 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:612 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:612 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 40000(Long), 500(Long)
+14:15:01:661 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:706 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:706 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:717 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:717 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:717 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 40500(Long), 500(Long)
+14:15:01:767 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:810 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:810 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:823 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:823 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:823 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 41000(Long), 500(Long)
+14:15:01:889 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:01:928 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:01:928 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:01:942 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:01:942 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:01:942 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 41500(Long), 500(Long)
+14:15:01:992 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:034 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:034 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:046 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:046 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:046 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 42000(Long), 500(Long)
+14:15:02:098 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:139 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:139 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:152 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:152 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:152 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 42500(Long), 500(Long)
+14:15:02:204 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:250 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:251 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:262 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:263 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:263 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 43000(Long), 500(Long)
+14:15:02:311 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:352 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:353 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:363 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:363 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:365 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 43500(Long), 500(Long)
+14:15:02:418 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:466 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:467 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:486 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:486 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:486 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 44000(Long), 500(Long)
+14:15:02:537 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:577 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:577 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:589 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:590 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:590 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 44500(Long), 500(Long)
+14:15:02:641 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:682 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:682 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:693 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:695 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:695 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 45000(Long), 500(Long)
+14:15:02:750 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:794 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:794 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:805 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:805 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:805 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 45500(Long), 500(Long)
+14:15:02:860 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:02:899 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:02:900 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:02:912 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:02:912 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:02:912 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 46000(Long), 500(Long)
+14:15:02:966 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:03:006 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:03:007 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:03:018 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:03:019 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:03:019 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 46500(Long), 500(Long)
+14:15:03:077 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:03:155 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:03:155 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:03:167 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:03:167 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:03:167 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 47000(Long), 500(Long)
+14:15:03:221 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:03:268 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:03:268 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:03:281 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:03:281 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:03:282 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 47500(Long), 500(Long)
+14:15:03:365 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:03:427 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:03:427 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:03:438 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:03:440 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:03:440 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 48000(Long), 500(Long)
+14:15:03:495 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:03:537 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:03:537 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:03:549 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:03:550 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:03:550 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 48500(Long), 500(Long)
+14:15:03:612 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:03:653 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:03:653 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:03:664 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:03:664 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:03:665 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 49000(Long), 500(Long)
+14:15:03:720 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:03:766 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:03:766 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:03:778 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:03:778 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:03:778 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 49500(Long), 500(Long)
+14:15:03:836 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:03:876 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:03:876 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:03:891 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:03:891 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:03:891 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 50000(Long), 500(Long)
+14:15:03:955 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:04:001 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:04:001 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:04:012 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:04:012 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:04:012 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 50500(Long), 500(Long)
+14:15:04:070 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:04:126 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:04:127 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:04:143 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:04:144 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:04:144 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 51000(Long), 500(Long)
+14:15:04:205 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:04:246 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:04:246 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:04:257 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:04:258 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:04:258 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 51500(Long), 500(Long)
+14:15:04:316 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:04:356 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:04:356 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:04:374 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:04:375 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:04:375 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 52000(Long), 500(Long)
+14:15:04:454 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:04:506 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:04:506 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:04:518 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:04:518 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:04:518 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 52500(Long), 500(Long)
+14:15:04:593 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:04:654 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:04:654 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:04:666 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:04:666 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:04:666 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 53000(Long), 500(Long)
+14:15:04:734 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:04:777 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:04:777 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:04:791 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:04:791 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:04:791 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 53500(Long), 500(Long)
+14:15:04:854 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:04:908 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:04:908 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:04:923 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:04:924 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:04:924 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 54000(Long), 500(Long)
+14:15:05:003 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:05:047 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:05:047 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:05:058 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:05:059 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:05:059 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 54500(Long), 500(Long)
+14:15:05:124 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:05:200 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:05:200 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:05:212 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:05:212 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:05:212 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 55000(Long), 500(Long)
+14:15:05:279 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:05:322 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:05:323 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:05:334 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:05:335 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:05:335 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 55500(Long), 500(Long)
+14:15:05:481 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:05:529 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:05:530 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:05:542 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:05:542 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:05:543 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 56000(Long), 500(Long)
+14:15:05:607 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:05:655 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:05:655 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:05:667 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:05:668 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:05:668 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 56500(Long), 500(Long)
+14:15:05:734 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:05:783 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:05:784 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:05:796 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:05:796 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:05:796 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 57000(Long), 500(Long)
+14:15:05:862 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:05:906 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:05:906 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:05:917 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:05:918 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:05:918 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 57500(Long), 500(Long)
+14:15:05:999 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:06:043 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:06:044 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:06:056 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:06:057 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:06:057 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 58000(Long), 500(Long)
+14:15:06:124 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:06:165 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:06:165 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:06:176 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:06:177 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:06:177 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 58500(Long), 500(Long)
+14:15:06:252 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:06:292 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:06:292 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:06:304 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:06:304 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:06:304 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 59000(Long), 500(Long)
+14:15:06:375 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:06:425 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:06:425 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:06:437 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:06:438 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:06:438 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 59500(Long), 500(Long)
+14:15:06:511 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:06:556 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:06:556 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:06:568 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:06:569 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:06:569 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 60000(Long), 500(Long)
+14:15:06:646 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:06:695 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:06:695 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:06:706 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:06:707 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:06:707 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 60500(Long), 500(Long)
+14:15:06:777 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:06:816 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:06:816 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:06:828 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:06:828 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:06:828 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 61000(Long), 500(Long)
+14:15:06:901 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:06:941 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:06:941 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:06:953 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:06:953 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:06:953 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 61500(Long), 500(Long)
+14:15:07:025 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:07:072 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:07:072 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:07:084 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:07:085 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:07:085 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 62000(Long), 500(Long)
+14:15:07:159 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:07:205 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:07:205 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:07:216 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:07:216 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:07:217 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 62500(Long), 500(Long)
+14:15:07:292 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:07:333 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:07:333 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:07:343 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:07:345 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:07:345 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 63000(Long), 500(Long)
+14:15:07:415 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:07:474 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:07:474 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:07:491 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:07:492 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:07:492 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 63500(Long), 500(Long)
+14:15:07:573 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:07:613 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:07:613 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:07:625 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:07:625 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:07:625 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 64000(Long), 500(Long)
+14:15:07:697 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:07:735 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:07:735 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:07:746 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:07:746 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:07:747 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 64500(Long), 500(Long)
+14:15:07:824 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:07:866 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:07:866 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:07:877 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:07:878 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:07:878 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 65000(Long), 500(Long)
+14:15:07:951 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:07:990 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:07:991 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:08:001 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:08:002 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:08:002 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 65500(Long), 500(Long)
+14:15:08:078 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:08:131 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:08:131 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:08:154 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:08:155 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:08:155 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 66000(Long), 500(Long)
+14:15:08:238 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:08:285 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:08:285 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:08:297 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:08:297 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:08:298 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 66500(Long), 500(Long)
+14:15:08:375 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:08:418 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:08:418 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:08:430 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:08:430 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:08:430 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 67000(Long), 500(Long)
+14:15:08:506 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:08:544 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:08:544 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:08:557 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:08:557 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:08:557 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 67500(Long), 500(Long)
+14:15:08:639 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:08:679 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:08:679 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:08:690 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:08:690 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:08:690 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 68000(Long), 500(Long)
+14:15:08:768 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:08:807 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:08:808 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:08:819 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:08:820 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:08:820 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 68500(Long), 500(Long)
+14:15:08:895 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:08:938 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:08:938 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:08:950 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:08:951 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:08:951 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 69000(Long), 500(Long)
+14:15:09:038 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:09:078 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:09:078 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:09:091 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:09:092 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:09:092 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 69500(Long), 500(Long)
+14:15:09:194 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:09:239 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:09:239 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:09:251 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:09:251 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:09:251 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 70000(Long), 500(Long)
+14:15:09:348 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:09:387 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:09:387 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:09:398 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:09:399 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:09:399 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 70500(Long), 500(Long)
+14:15:09:479 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:09:519 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:09:519 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:09:532 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:09:533 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:09:533 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 71000(Long), 500(Long)
+14:15:09:611 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:09:651 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:09:651 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:09:663 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:09:663 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:09:663 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 71500(Long), 500(Long)
+14:15:09:753 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:09:797 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:09:797 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:09:809 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:09:809 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:09:810 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 72000(Long), 500(Long)
+14:15:09:914 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:09:952 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:09:952 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:09:963 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:09:964 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:09:964 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 72500(Long), 500(Long)
+14:15:10:055 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:10:102 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:10:102 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:10:114 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:10:115 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:10:115 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 73000(Long), 500(Long)
+14:15:10:216 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:10:255 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:10:255 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:10:267 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:10:267 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:10:267 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 73500(Long), 500(Long)
+14:15:10:351 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:10:393 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:10:393 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:10:405 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:10:406 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:10:406 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 74000(Long), 500(Long)
+14:15:10:521 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:10:562 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:10:562 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:10:575 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:10:576 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:10:576 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 74500(Long), 500(Long)
+14:15:10:657 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:10:699 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:10:699 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:10:711 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:10:711 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:10:711 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 75000(Long), 500(Long)
+14:15:10:799 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:10:840 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:10:840 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:10:857 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:10:857 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:10:857 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 75500(Long), 500(Long)
+14:15:10:942 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:10:991 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:10:991 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:11:002 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:11:002 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:11:002 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 76000(Long), 500(Long)
+14:15:11:091 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:11:137 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:11:137 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:11:148 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:11:150 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:11:150 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 76500(Long), 500(Long)
+14:15:11:272 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:11:321 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:11:321 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:11:334 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:11:334 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:11:334 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 77000(Long), 500(Long)
+14:15:11:425 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:11:465 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:11:465 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:11:476 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:11:477 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:11:477 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 77500(Long), 500(Long)
+14:15:11:570 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:11:610 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:11:610 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:11:622 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:11:623 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:11:623 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 78000(Long), 500(Long)
+14:15:11:711 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:11:749 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:11:749 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:11:760 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:11:761 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:11:761 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 78500(Long), 500(Long)
+14:15:11:853 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:11:894 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:11:895 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:11:907 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:11:907 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:11:907 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 79000(Long), 500(Long)
+14:15:11:994 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:12:040 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:12:041 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:12:053 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:12:054 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:12:054 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 79500(Long), 500(Long)
+14:15:12:154 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:12:195 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:12:195 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:12:207 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:12:207 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:12:207 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 80000(Long), 500(Long)
+14:15:12:296 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:12:336 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:12:337 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:12:354 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:12:355 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:12:355 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 80500(Long), 500(Long)
+14:15:12:491 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:12:531 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:12:531 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:12:543 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:12:543 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:12:543 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 81000(Long), 500(Long)
+14:15:12:636 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:12:674 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:12:674 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:12:686 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:12:686 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:12:686 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 81500(Long), 500(Long)
+14:15:12:785 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:12:826 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:12:826 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:12:837 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:12:837 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:12:837 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 82000(Long), 500(Long)
+14:15:12:932 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:12:981 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:12:982 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:12:993 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:12:993 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:12:993 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 82500(Long), 500(Long)
+14:15:13:095 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:13:186 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:13:186 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:13:211 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:13:212 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:13:212 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 83000(Long), 500(Long)
+14:15:13:312 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:13:349 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:13:350 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:13:362 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:13:362 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:13:362 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 83500(Long), 500(Long)
+14:15:13:464 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:13:516 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:13:517 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:13:528 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:13:528 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:13:528 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 84000(Long), 500(Long)
+14:15:13:624 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:13:663 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:13:663 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:13:675 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:13:675 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:13:676 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 84500(Long), 500(Long)
+14:15:13:775 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:13:826 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:13:826 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:13:844 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:13:845 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:13:845 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 85000(Long), 500(Long)
+14:15:14:009 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:14:074 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:14:074 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:14:123 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:14:124 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:14:124 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 85500(Long), 500(Long)
+14:15:14:343 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:14:401 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:14:401 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:14:420 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:14:420 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:14:420 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 86000(Long), 500(Long)
+14:15:14:570 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:14:627 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:14:627 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:14:646 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:14:646 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:14:646 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 86500(Long), 500(Long)
+14:15:14:781 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:14:827 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:14:828 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:14:839 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:14:840 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:14:840 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 87000(Long), 500(Long)
+14:15:14:945 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:14:992 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:14:992 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:15:004 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:15:004 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:15:004 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 87500(Long), 500(Long)
+14:15:15:140 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 500
+14:15:15:255 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:15:255 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:15:275 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:15:275 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+14:15:15:275 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 88000(Long), 500(Long)
+14:15:15:469 DEBUG 9196 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 475
+14:15:15:526 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+14:15:15:527 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+14:15:15:540 DEBUG 9196 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+14:15:15:594  WARN 9196 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:15:15:594  WARN 9196 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:15:15:594  WARN 9196 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:15:15:596  WARN 9196 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:15:15:934  INFO 9196 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:15:15:934  INFO 9196 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@42f8ee2c[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:15:15:934  INFO 9196 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1719900890619_192.168.175.1_52665
+14:15:15:936  INFO 9196 --- [nacos-grpc-client-executor-18] c.a.n.c.remote.client.grpc.GrpcClient    : [1719900890619_192.168.175.1_52665]Ignore complete event,isRunning:false,isAbandon=false
+14:15:15:949  INFO 9196 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4bad7f9a[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 19]
+14:15:15:954  INFO 9196 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+14:15:15:968  INFO 9196 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+14:15:15:969  INFO 9196 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xd6029793, L:/192.168.175.1:52622 ! R:/192.168.175.129:8099]
+14:15:15:970  INFO 9196 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xd6029793, L:/192.168.175.1:52622 ! R:/192.168.175.129:8099]
+14:15:15:970  INFO 9196 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xd6029793, L:/192.168.175.1:52622 ! R:/192.168.175.129:8099]
+14:15:15:970  INFO 9196 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xd6029793, L:/192.168.175.1:52622 ! R:/192.168.175.129:8099]
+14:15:15:970  INFO 9196 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xd6029793, L:/192.168.175.1:52622 ! R:/192.168.175.129:8099]) will closed
+14:15:15:970  INFO 9196 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xd6029793, L:/192.168.175.1:52622 ! R:/192.168.175.129:8099]) will closed
+14:15:15:973  INFO 9196 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x503e37cf, L:/192.168.175.1:52627 ! R:/192.168.175.129:8099]
+14:15:15:973  INFO 9196 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x503e37cf, L:/192.168.175.1:52627 ! R:/192.168.175.129:8099]
+14:15:15:973  INFO 9196 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x503e37cf, L:/192.168.175.1:52627 ! R:/192.168.175.129:8099]
+14:15:15:973  INFO 9196 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x503e37cf, L:/192.168.175.1:52627 ! R:/192.168.175.129:8099]
+14:15:15:973  INFO 9196 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x503e37cf, L:/192.168.175.1:52627 ! R:/192.168.175.129:8099]) will closed
+14:15:15:973  INFO 9196 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x503e37cf, L:/192.168.175.1:52627 ! R:/192.168.175.129:8099]) will closed
